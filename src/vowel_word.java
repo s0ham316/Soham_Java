@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class vowel_word {
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
-        String sent=scanner.nextLine();int c=0, d=0,x=0,cn=0;
+        String sent=scanner.nextLine();int c=0, d=0,x,cn=0;
         sent=" "+sent;
         sent=sent+" ";
         for (int i=0;i<sent.length();i++){
@@ -21,7 +21,6 @@ public class vowel_word {
                 d=0;
                 c=0;
                 cn=0;
-                x=0;
             }
         }
     }
