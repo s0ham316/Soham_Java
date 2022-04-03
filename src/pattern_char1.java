@@ -1,8 +1,5 @@
-import java.util.Scanner;
-
 public class pattern_char1 {
     public static void main(String[] args){
-        Scanner scanner=new Scanner(System.in);
         int i,j,flag=1;
         char c;
         for (i=65;i<=90;i++){
